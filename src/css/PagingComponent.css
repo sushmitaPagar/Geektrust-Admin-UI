@@ -1,0 +1,25 @@
+.pageBtn {
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: rgb(2, 152, 211);
+  }
+  
+.pageBtn:hover {
+    cursor: pointer;
+  }
+  
+.disabledPageBtn {
+    pointer-events: none;
+    opacity: .65;
+    color: black;
+    background-color: lightgray;
+  }
+  
+.intermediateBtnActv {
+    color: rgb(2, 152, 211);
+    background-color: white;
+    border: 1px solid rgb(2, 152, 211);
+  }

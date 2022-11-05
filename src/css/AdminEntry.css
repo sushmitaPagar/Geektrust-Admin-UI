@@ -1,0 +1,29 @@
+.tableRow td {
+    padding: 0.5rem;
+  }
+
+.actionIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+.actionIcons:hover {
+    cursor: pointer;
+  }
+  
+.delete-icon {
+    color: rgb(172, 2, 2);
+  }
+
+.editabeInput {
+    padding: 0.5rem;
+    border: 1px solid gray;
+    background-color: inherit;
+  }
+  
+.readOnlyInput {
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    background-color: inherit;
+  }

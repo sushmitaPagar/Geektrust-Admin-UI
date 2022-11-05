@@ -1,0 +1,17 @@
+.adminEntryTable {
+    width: 100%;
+  }
+  
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+.tableRow {
+    width: 100%;
+    border-bottom: 1px solid gray;
+  }
+  
+.tableRow:hover {
+    background-color: lightgray;
+  }
